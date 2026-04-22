@@ -1,0 +1,24 @@
+[11:46:02.794] [INFO] storybook v10.3.4
+[11:46:03.494] [DEBUG] Getting package.json info for /home/omi/laravel_boilerplate/frontend/package.json...
+[11:46:04.734] [INFO] Starting...
+[11:46:04.928] [DEBUG] Starting preview..
+[11:46:04.966] [INFO] Using implicit CSS loaders
+[11:46:05.189] [INFO] Using SWC as compiler
+[11:46:05.237] [INFO] Using default Webpack5 setup
+[11:46:05.850] [DEBUG] Using tsconfig paths for react-docgen
+[11:46:11.058] [ERROR] Failed to build the preview
+[11:46:11.060] [WARN] Force closed preview build
+[11:46:11.062] [ERROR] [38;2;241;97;97mSB_BUILDER-WEBPACK5_0003 (WebpackCompilationError): There were problems when compiling your code with Webpack.
+Run Storybook with --debug-webpack for more information.[39m
+    at starter (file://./node_modules/@storybook/builder-webpack5/dist/index.js:799:11)
+    at starter.next (<anonymous>)
+    at Module.start (file://./node_modules/@storybook/builder-webpack5/dist/index.js:857:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async storybookDevServer (file://./node_modules/storybook/dist/core-server/index.js:7503:83)
+    at async buildOrThrow (file://./node_modules/storybook/dist/core-server/index.js:4508:12)
+    at async buildDevStandalone (file://./node_modules/storybook/dist/core-server/index.js:8033:41)
+    at async withTelemetry (file://./node_modules/storybook/dist/_node-chunks/chunk-HUYNFPPD.js:225:12)
+    at async dev (file://./node_modules/storybook/dist/bin/core.js:2736:3)
+    at async _Command.<anonymous> (file://./node_modules/storybook/dist/bin/core.js:2806:92)
+[11:46:11.070] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
